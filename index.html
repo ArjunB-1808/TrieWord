@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trie Word Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Trie Word Game</h2>
+        <p>Enter words to score points before time runs out!</p>
+        <p>⏳ Time Left: <span id="timer">30</span> seconds</p>
+        <button id="startButton">Start Game</button>
+        <input type="text" id="wordInput" placeholder="Type a word..." disabled>
+        <button id="submitButton" style="display: none;">Submit</button>
+        <p id="message"></p>
+        <p>⭐ Score: <span id="score">0</span></p>
+    </div>
+    
+    <script src="words.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
